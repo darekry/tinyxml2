@@ -2209,7 +2209,7 @@ XMLDocument::XMLDocument( bool processEntities, Whitespace whitespaceMode ) :
     _whitespaceMode( whitespaceMode ),
     _errorStr(),
     _errorLineNum( 0 ),
-    _charBuffer( 0 ),
+    _charBuffer( nullptr ),
     _parseCurLineNum( 0 ),
 	_parsingDepth(0),
     _unlinked(),
